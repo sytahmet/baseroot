@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "arweave": "^1.15.7",
+    "ipfs-http-client": "^60.0.1"
+  }
+}
