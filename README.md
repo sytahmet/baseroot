@@ -12,6 +12,4 @@ The smart contract provides a single function:
 
 To build the project, you will need to have Rust and Anchor CLI installed.  After installing them, navigate to the project's root directory and run the following command:
 
-
-
-Learn more at https://developers.google.com/idx/guides/customize-idx-env
+Contract Distribution not made 
