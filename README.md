@@ -44,9 +44,7 @@ anchor deploy
 
 ## Dağıtım
 
-Projede şu an için dağıtım işlemi yapılmamıştır. Bu nedenle akıllı sözleşme yalnızca yerel test ağı üzerinde çalıştırılabilir. Gerçek ağda dağıtım yapmak için, dağıtım ayarlarını ve cüzdan bilgilerinizi yapılandırmanız gerekecektir.
-
----
+Projede şu an için test ağına dağıtım işlemi yapılmamıştır. Test ağına dağıtım yapılıp test edilmesi gerekiyor.
 
 ## Kullanıcı Rolleri
 
@@ -66,3 +64,4 @@ Web3.js veya React + Solana Wallet Adapter kullanarak kullanıcı arayüzü olu�
 - Cüzdanlarını bağlayacaklar.
 - Araştırmalarını yükleyecekler.
 - DAO içerisinde oy kullanabilecekler.
+
