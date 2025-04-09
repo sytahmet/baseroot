@@ -1,15 +1,68 @@
-# baseroot
+# Baseroot
 
-This project contains a Solana smart contract written in Rust that allows users to submit their academic research hashes to the Solana blockchain. The smart contract stores the research hash, the owner's public key, and a timestamp of when the research was submitted.
+Bu proje, kullanıcıların akademik araştırmalarının hash'lerini Solana blockchain'ine gönderebileceği bir Solana akıllı sözleşmesidir. Akıllı sözleşme, araştırma hash'ini, sahibinin public key'ini ve araştırmanın gönderildiği zamanın timestamp'ini saklar.
 
-## Smart Contract Functionality
+## Akıllı Sözleşme Fonksiyonalitesi
 
-The smart contract provides a single function:
+Akıllı sözleşme aşağıdaki fonksiyonu sağlar:
 
-- `submit_research`: Allows a user to submit the hash of their academic research. This function stores the research hash, the user's public key as the owner, and the current timestamp.
+- **`submit_research`**: Kullanıcının akademik araştırma hash'ini göndermesine olanak tanır. Bu fonksiyon, araştırma hash'ini, kullanıcının public key'ini (sahip olarak) ve mevcut zaman damgasını saklar.
 
-## Building the Project
+---
 
-To build the project, you will need to have Rust and Anchor CLI installed.  After installing them, navigate to the project's root directory and run the following command:
+## Projeyi Derlemek
 
-Contract Distribution not made 
+Projeyi derlemek için Rust ve Anchor CLI'nin yüklü olması gerekmektedir. Bunları yükledikten sonra, projenin kök dizinine gidin ve aşağıdaki komutları çalıştırın:
+
+### 1. Anchor Bağımlılıklarını Yüklemek
+
+```bash
+anchor install
+```
+
+### 2. Solana Test Ağı Başlatmak
+
+Yerel geliştirme ortamını başlatmak için aşağıdaki komutu kullanın:
+
+```bash
+solana-test-validator
+```
+
+### 3. Akıllı Sözleşmeyi Derlemek
+
+```bash
+anchor build
+```
+
+### 4. Akıllı Sözleşmeyi Solana Ağına Dağıtmak
+
+```bash
+anchor deploy
+```
+
+---
+
+## Dağıtım
+
+Projede şu an için dağıtım işlemi yapılmamıştır. Bu nedenle akıllı sözleşme yalnızca yerel test ağı üzerinde çalıştırılabilir. Gerçek ağda dağıtım yapmak için, dağıtım ayarlarını ve cüzdan bilgilerinizi yapılandırmanız gerekecektir.
+
+---
+
+## Kullanıcı Rolleri
+
+1. **Araştırmacılar**: 
+   - Veri yükler, öneriler sunar.
+2. **Topluluk**: 
+   - Araştırma ve proje önerilerine oy verir, destekler.
+3. **Doğrulayıcılar**: 
+   - Araştırmaların geçerliliğini denetler (isteğe bağlı bir modül).
+
+---
+
+## Frontend Hazırlığı (Sonraki Adım)
+
+Web3.js veya React + Solana Wallet Adapter kullanarak kullanıcı arayüzü oluşturulacaktır. Bu arayüz üzerinden kullanıcılar:
+
+- Cüzdanlarını bağlayacaklar.
+- Araştırmalarını yükleyecekler.
+- DAO içerisinde oy kullanabilecekler.
