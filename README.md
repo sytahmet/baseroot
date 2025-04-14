@@ -1,67 +1,56 @@
 # Baseroot
 
-Bu proje, kullanıcıların akademik araştırmalarının hash'lerini Solana blockchain'ine gönderebileceği bir Solana akıllı sözleşmesidir. Akıllı sözleşme, araştırma hash'ini, sahibinin public key'ini ve araştırmanın gönderildiği zamanın timestamp'ini saklar.
-
-## Akıllı Sözleşme Fonksiyonalitesi
-
-Akıllı sözleşme aşağıdaki fonksiyonu sağlar:
-
-- **`submit_research`**: Kullanıcının akademik araştırma hash'ini göndermesine olanak tanır. Bu fonksiyon, araştırma hash'ini, kullanıcının public key'ini (sahip olarak) ve mevcut zaman damgasını saklar.
+🔬 **What is Baseroot?**  
+Baseroot is a decentralized science (DeSci) platform leveraging the Solana blockchain. It aims to revolutionize scientific research by making it more transparent, accessible, and community-driven. With tools like blockchain-based data integrity, AI-assisted verification, and decentralized funding, Baseroot empowers researchers and fosters innovation.
 
 ---
 
-## Projeyi Derlemek
-
-Projeyi derlemek için Rust ve Anchor CLI'nin yüklü olması gerekmektedir. Bunları yükledikten sonra, projenin kök dizinine gidin ve aşağıdaki komutları çalıştırın:
-
-### 1. Anchor Bağımlılıklarını Yüklemek
-
-```bash
-anchor install
-```
-
-### 2. Solana Test Ağı Başlatmak
-
-Yerel geliştirme ortamını başlatmak için aşağıdaki komutu kullanın:
-
-```bash
-solana-test-validator
-```
-
-### 3. Akıllı Sözleşmeyi Derlemek
-
-```bash
-anchor build
-```
-
-### 4. Akıllı Sözleşmeyi Solana Ağına Dağıtmak
-
-```bash
-anchor deploy
-```
+🎯 **Our Mission:**  
+To eliminate traditional barriers in the scientific ecosystem and build a decentralized, fair, and collaborative platform where everyone can contribute to research and innovation.
 
 ---
 
-## Dağıtım
+🌟 **Current Focus Areas:**  
+1. **BaserootResearch:**  
+   - A module dedicated to securely submitting and storing research hashes on the blockchain.  
+   - Enables researchers to prove authorship and ensure data integrity.  
 
-Projede şu an için test ağına dağıtım işlemi yapılmamıştır. Test ağına dağıtım yapılıp test edilmesi gerekiyor.
-
-## Kullanıcı Rolleri
-
-1. **Araştırmacılar**: 
-   - Veri yükler, öneriler sunar.
-2. **Topluluk**: 
-   - Araştırma ve proje önerilerine oy verir, destekler.
-3. **Doğrulayıcılar**: 
-   - Araştırmaların geçerliliğini denetler (isteğe bağlı bir modül).
+2. **BaserootDAO:**  
+   - A decentralized governance system where the community can collectively decide on research funding, project proposals, and platform improvements.  
+   - Promotes fair and community-driven decision-making.  
 
 ---
 
-## Frontend Hazırlığı (Sonraki Adım)
+🚀 **Future Developments:**  
+1. **NFT-Based Publishing:**  
+   - Transform published research into NFTs to establish ownership and facilitate transparent sharing and monetization.  
 
-Web3.js veya React + Solana Wallet Adapter kullanarak kullanıcı arayüzü oluşturulacaktır. Bu arayüz üzerinden kullanıcılar:
+2. **AI-Assisted Verification:**  
+   - Implement AI-powered tools to validate research validity and detect potential issues or plagiarism.  
 
-- Cüzdanlarını bağlayacaklar.
-- Araştırmalarını yükleyecekler.
-- DAO içerisinde oy kullanabilecekler.
+3. **Community-Driven Funding:**  
+   - Introduce a crowdfunding feature where users can financially support research projects they believe in.  
 
+4. **Web3 Integration:**  
+   - Develop a user-friendly interface using Web3.js and Solana Wallet Adapter.  
+   - Allow users to connect their wallets, upload research, and participate in DAO governance seamlessly.  
+
+---
+
+🌐 **Who is Baseroot for?**  
+- **Academics**: Publish and protect your research.  
+- **Independent Researchers**: Gain recognition and funding.  
+- **Students**: Contribute and collaborate on innovative projects.  
+- **Supporters**: Be part of the decentralized science revolution.
+- **Scientist**: Get funding for your research experiments.  
+
+---
+
+🧠 **Why Choose Baseroot?**  
+- **Immutable Research Records:** Blockchain ensures data integrity and authorship.  
+- **Community Governance:** Decisions powered by DAO for equitable outcomes.  
+- **AI-Driven Validation:** Enhance trust and reliability in research.  
+- **Decentralized Funding Opportunities:** Support what matters to you.
+
+The future of science is decentralized.
+**Discover Baseroot — Where research is in your hands.**
