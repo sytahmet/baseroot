@@ -1,16 +1,16 @@
 # Baseroot
 
-🔬 **What is Baseroot?**  
-Baseroot is a decentralized science (DeSci) platform leveraging the Solana blockchain. It aims to revolutionize scientific research by making it more transparent, accessible, and community-driven. With tools like blockchain-based data integrity, AI-assisted verification, and decentralized funding, Baseroot empowers researchers and fosters innovation.
+**What is Baseroot?**  
+Baseroot is a decentralized science (DeSci) platform built on the Solana blockchain. It aims to revolutionize scientific research by making it more transparent, accessible, and community-driven. With tools like blockchain-based data integrity, AI-assisted verification, and decentralized funding, Baseroot empowers researchers and fosters innovation.
 
 ---
 
-🎯 **Our Mission:**  
+**Our Mission:**  
 To eliminate traditional barriers in the scientific ecosystem and build a decentralized, fair, and collaborative platform where everyone can contribute to research and innovation.
 
 ---
 
-🌟 **Current Focus Areas:**  
+**Current Focus Areas:**  
 1. **BaserootResearch:**  
    - A module dedicated to securely submitting and storing research hashes on the blockchain.  
    - Enables researchers to prove authorship and ensure data integrity.  
@@ -21,7 +21,7 @@ To eliminate traditional barriers in the scientific ecosystem and build a decent
 
 ---
 
-🚀 **Future Developments:**  
+**Future Developments:**  
 1. **NFT-Based Publishing:**  
    - Transform published research into NFTs to establish ownership and facilitate transparent sharing and monetization.  
 
@@ -37,16 +37,16 @@ To eliminate traditional barriers in the scientific ecosystem and build a decent
 
 ---
 
-🌐 **Who is Baseroot for?**  
+**Who is Baseroot for?**  
 - **Academics**: Publish and protect your research.  
 - **Independent Researchers**: Gain recognition and funding.  
 - **Students**: Contribute and collaborate on innovative projects.  
 - **Supporters**: Be part of the decentralized science revolution.
-- **Scientist**: Get funding for your research experiments.  
+- **Scientist**: Get funding for your experiments.  
 
 ---
 
-🧠 **Why Choose Baseroot?**  
+**Why Choose Baseroot?**  
 - **Immutable Research Records:** Blockchain ensures data integrity and authorship.  
 - **Community Governance:** Decisions powered by DAO for equitable outcomes.  
 - **AI-Driven Validation:** Enhance trust and reliability in research.  
