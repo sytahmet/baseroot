@@ -1,4 +1,4 @@
-# BaseRoot Program
+# Baseroot Program
 
 Baseroot is a Solana program written using the Anchor framework. It is composed of two modules: `baseroot` and `baseroot_dao`. These modules together enable decentralized research uploads and voting functionalities.
 
