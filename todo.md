@@ -8,7 +8,7 @@
 - [x] **1.5: Develop DAO Proposal Contract:** Implement logic for submitting research funding proposals.
 - [x] **1.6: Develop DAO Voting Contract:** Implement logic for token-based voting on proposals.
 - [x] **1.7: Develop DAO Funding Distribution Contract:** Implement logic for distributing funds to approved projects.
-- [ ] **1.8: Write Unit Tests for Smart Contracts:** Ensure all contract functionalities are thoroughly tested.
+- [x] **1.8: Write Unit Tests for Smart Contracts:** Ensure all contract functionalities are thoroughly tested.
 - [ ] **1.9: Initial Deployment to Solana Devnet:** Deploy and test contracts on a local or devnet environment.
 
 ## Phase 2: Backend Development (FastAPI/Python)
@@ -39,7 +39,7 @@
     - [x] **3.6.3: Voting Interface for Proposals.**
     - [x] **3.6.4: Fund Tracking Display.**
 - [x] **3.7: Develop UI - AI Literature Discovery Tool Page:** Input for keywords/abstract, display of similar papers and citations.
-- [ ] **3.8: Implement API Integrations:** Connect frontend components to backend APIs.
+- [x] **3.8: Implement API Integrations:** Connect frontend components to backend APIs.
 - [ ] **3.9: Ensure Responsive Design:** Optimize for desktop and mobile views.
 - [ ] **3.10: Write Frontend Component Tests.**
 
